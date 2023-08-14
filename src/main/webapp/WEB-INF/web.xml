@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>addnotes</servlet-name>
+  	<display-name>addnotes</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.addnotes</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<display-name>DeleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>updatenotes</servlet-name>
+  	<display-name>updatenotes</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.updatenotes</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>updatenotess</servlet-name>
+  	<display-name>updatenotess</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.updatenotes</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Updatenotess</servlet-name>
+  	<display-name>Updatenotess</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.Updatenotess</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>addnotes</servlet-name>
+  	<url-pattern>/addnotes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>updatenotes</servlet-name>
+  	<url-pattern>/updatenotes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>updatenotess</servlet-name>
+  	<url-pattern>/updatenotess</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Updatenotess</servlet-name>
+  	<url-pattern>/Updatenotess</url-pattern>
+  </servlet-mapping>
+</web-app>
